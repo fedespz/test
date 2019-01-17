@@ -41,6 +41,7 @@ body{
   right: 0;
 
   width: 100%;
+  min-height: 100%;
   background-color: dodgerblue;
   color: #fff;
   z-index: 2;
