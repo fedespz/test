@@ -1,0 +1,53 @@
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.menu{
+  position: fixed;
+  right: 1rem;
+  top: 1rem;
+  width: 2rem;
+  height: 2rem;
+  background-color: limegreen;
+  z-index: 3;
+}
+
+.content{
+  width: 100vw;
+  padding: 2rem;
+}
+
+.main-wrapper{
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  z-index: 1;
+  overflow-x: hidden;
+  transition: .3s;
+}
+
+.side-wrapper{
+  position: fixed;
+  top: 0;
+  right: 0;
+
+  width: 100%;
+  background-color: dodgerblue;
+  color: #fff;
+  z-index: 2;
+  overflow-x: hidden;
+  transition: .3s;
+}
+
+.remove{
+  width: 0;
+}
